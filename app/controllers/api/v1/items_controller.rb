@@ -16,7 +16,7 @@ skip_before_action :authorized, only: [:create, :index]
 
   private
   def item_params
-    params.require(:item).permit(:name, :description, :price, :type)
+    params.require(:item).permit(:name, :description, :price, :item_type)
     
   end
   
