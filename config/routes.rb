@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :orders
       resources :items
       resources :addresses
+      resources :order_items
       post '/login', to: 'auth#create'
       get '/profile', to: 'customers#profile'
     end

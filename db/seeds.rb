@@ -38,3 +38,9 @@
 # MERCH
 # redHat = Item.create(name: 'Red TWW Snapback', description: 'Rep your favorite wing joint with a snapback! ', price: 25, item_type: 'merch')
 # blackHat = Item.create(name: 'Black TWW Snapback', description: 'Rep your favorite wing joint with a snapback! ', price: 25, item_type: 'merch')
+
+# o1 = Order.create(completed: false, customer_id: 1)
+# oi1 = OrderItem.create(item_id: 1, order_id: 1, quantity: 2)
+
+# to create an order with order items that belongs to a customer
+# 
